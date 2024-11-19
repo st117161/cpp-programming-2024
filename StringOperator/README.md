@@ -1,10 +1,10 @@
-#StringOperator
+# StringOperator
 
-##Task:
+## Task:
 Implement the [] operator for the already implemented String class.
 This operator should implement the following behavior: the operator should be implemented in such a way that for a String object str, one can write str[i][j], and this expression returns a substring starting at position i (counting from 0) and ending at position j (not including).
 
-##Example:
+## Example:
 - `String const hello("hello");`
 - `String const hell = hello[0][4];` // now hell contains the substring "hell"
 - `String const ell = hello[1][4];`  // now ell contains the substring "ell"
